@@ -1,0 +1,22 @@
+cat > .gitignore << 'EOF'
+# Ignore files without extensions (like '1stcpp')
+*.
+!*/
+
+# Keep common file types
+!*.cpp
+!*.h
+!*.hpp
+!*.c
+!*.cc
+!*.json
+!*.md
+!*.png
+!*.jpg
+!*.jpeg
+!*.pdf
+!*.txt
+!*.gitignore
+!LICENSE
+
+EOF
