@@ -3,11 +3,9 @@
 using namespace std;
 
 int main() {
-    string mystr;
-    while(1) {
-        cout << "Enter a String: ";
-        cin >> mystr;
-        cout << "Your string is: " << mystr << "\n\n";
-    }
-    return 0;
+  string fullName;
+  cout << "Type your full name: ";
+  getline (cin, fullName);
+  cout << "Your name is: " << fullName;
+  return 0;
 }
