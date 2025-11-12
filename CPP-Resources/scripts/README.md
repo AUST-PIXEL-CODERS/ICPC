@@ -1,1 +1,1 @@
-"Image files for CPP resources will go here." 
+"Program files for CPP resources will go here." 
